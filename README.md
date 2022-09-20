@@ -1,2 +1,2 @@
 Day: 1
-59 mins into the course
+1: 15 mins into the course

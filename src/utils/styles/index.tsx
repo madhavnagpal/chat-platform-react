@@ -9,7 +9,7 @@ export const InputContainer = styled.div`
 `;
 
 export const InputField = styled.input`
-  background-color: inherit;
+  background-color: #131313;
   color: #fff;
   font-family: "Inter";
   border: none;
@@ -19,6 +19,12 @@ export const InputField = styled.input`
   width: 100%;
   padding: 0;
   margin: 4px 0;
+
+  // Override browser form-filling and input highlighting
+  &:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #131313 inset;
+    -webkit-text-fill-color: #fff;
+  }
 `;
 
 export const InputLabel = styled.label`
